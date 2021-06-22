@@ -1,0 +1,186 @@
+#include <iostream>
+	using namespace std;
+
+	int main()
+
+	{
+		int wife, father, ans3, ans1, ans2, brother, sister, grandmother, grandfather, son, money, daughter;
+
+		cout << "father=";
+		cin >> father;
+
+		cout << "enter the total amount below";
+		cin >> money;
+
+		cout << "is father of ther decased alive?";
+		cin >> grandfather;
+
+		cout << "is mother of ther decased alive?";
+		cin >> grandmother;
+
+		cout << "is the wife of the decased alive?";
+		cin >> wife;
+
+		cout << "does the desaced have any son, if so how many ?";
+		cin >> son;
+
+		cout << "does the decased have a daughter if so how many?";
+		cin >> daughter;
+
+		cout << "does the decased have any brothers if so how many?";
+		cin >> brother;
+
+		cout << "does the decased have any sisters if so how many?";
+		cin >> sister;
+
+
+		if (father == 0)
+
+			if (grandfather > 0)
+				if (grandmother > 0)
+				{
+					ans1 = money / 1 / 6;
+					grandfather = ans1;
+
+					ans2 = money / 1 / 6;
+					grandmother = ans2;
+
+					cout << "\n" "share of father of decased=" << ans1;
+					cout << "\n" "share of mother of decased=" << ans2;
+				}
+		{
+			if (wife <= 1)
+				if (son <= 1)
+
+				{
+					ans3 = money / 1 / 8;
+					wife = ans3;
+					
+
+				}
+				else (wife <= 1) && (son == 0);
+			{
+				ans3 = money / 1 / 4;
+				wife = ans3;
+				cout << "\n""share of widows/widows" << wife;
+
+			}
+
+			return 0;
+		}
+	}
+
+
+
+
+
+		
+		
+
+POG DONE
+#include <iostream>
+	using namespace std;
+
+	int main()
+
+	{
+		int wife, ans5, father, ans2{}, brother, sister, grandmother, grandfather, son, money, daughter, ans6, ans7 , ans8 ,ans9 ,ans1{}, ans3;
+
+		cout << "father=";
+		cin >> father;
+
+		cout << "enter the total amount below";
+		cin >> money;
+
+		cout << "is father of ther decased alive?";
+		cin >> grandfather;
+
+		cout << "is mother of ther decased alive?";
+		cin >> grandmother;
+
+		cout << "is the wife of the decased alive?";
+		cin >> wife;
+
+		cout << "does the desaced have any son, if so how many ?";
+		cin >> son;
+
+		cout << "does the decased have a daughter if so how many?";
+		cin >> daughter;
+
+		cout << "does the decased have any brothers if so how many?";
+		cin >> brother;
+
+		cout << "does the decased have any sisters if so how many?";
+		cin >> sister;
+
+
+		if (father == 0)
+
+			if (grandfather > 0)
+				if (grandmother > 0)
+				{
+					ans1 = money / 1 / 6;
+					grandfather = ans1;
+
+					ans2 = money / 1 / 6;
+					grandmother = ans2;
+
+					cout << "\n" "share of father of decased=" << ans1;
+					cout << "\n" "share of mother of decased=" << ans2;
+				}
+		
+			if (wife == 1)
+			{
+					ans3 = money / 1 / 8;
+					wife = ans3;
+					cout << "\n""share of widows/widows" << wife;
+
+			}
+				else 
+			{
+				ans3 = money / 1 / 8 /wife;
+				wife = ans3;
+				cout << "\n""share of widows/widows" << wife;
+
+			}
+
+			ans5 = ans1 + ans2 + ans3;
+			ans6 = money - ans5;
+
+			cout <<"\n" " amount left is" << ans6;
+
+			ans7 = son * 2 + daughter;
+			ans8 = ans6 / ans7;
+
+			cout << "\n each daughter will have=" << ans8;
+            ans9 = ans8 * 2;
+
+			cout << "\n each son will get" << ans9;
+
+
+
+
+
+			return 0;
+		
+	}
+
+
+
+
+
+		
+		
+
+
+	
+
+	
+
+
+
+	
+
+	
+
+
